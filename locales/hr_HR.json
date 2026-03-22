@@ -88,7 +88,8 @@
 				"answer": "Nemamo pristup zabranama (banovima) na Nintendo Networku, tako da nijedan korisnik Nintendo Networka nije unaprijed zabranjen. Međutim, imamo vlastita pravila korištenja usluge i nepridržavanje tih pravila može rezultirati zabranom."
 			},
 			{
-				"question": "Mogu li koristiti cheatove ili modove online s Pretendom?"
+				"question": "Mogu li koristiti cheatove ili modove online s Pretendom?",
+				"answer": "Samo u privatnim mečevima – stjecanje nepravedne prednosti ili ometanje online iskustva s ljudima koji na to nisu pristali (kao u javnim mečevima) kažnjivo je zabranom. Redovito primjenjujemo zabrane računa i konzole za Wii U i Nintendo 3DS sustave. Pretendo koristi dodatne sigurnosne mjere koje čine tradicionalne metode „ponovnog uključivanja”, poput mijenjanja serijskog broja, neučinkovitima."
 			}
 		]
 	},
@@ -298,12 +299,12 @@
 			"button": "Pridruži se sada!"
 		},
 		"bandwidthRaccoonQuotes": [
-			null,
+			"Ja sam Bandwidth rakun i volim grickati kablove koji vode u Pretendo Networkove servere. Baš fino!",
 			"Mnogi nas pitaju hoćemo li zbog ovoga imati pravnih problema s Nintendom; drago mi je što mogu reći da moja teta radi u Nintendu i ona kaže da je sve u redu.",
-			null,
+			"WebKit v537 je najbolja verzija WebKita za Wii U. Ne, nećemo portirati Google Chrome na Wii U.",
 			"Jedva čekam da sat dosegne 03:14:08 UTC, 19. siječnja 2038.!",
-			null,
-			null,
+			"Wii U je zapravo podcijenjen sustav: reklame su bile stvarno loše, ali konzola je odlična. Hm, čekaj malo, nisam siguran zašto, ali moj GamePad se ne povezuje s mojim Wii-jem.",
+			"Super Mario World 2 – Glavna tema od Yoshi Island je apsolutni hit i nema šanse da me uvjeriš u suprotno.",
 			null,
 			null,
 			null,
