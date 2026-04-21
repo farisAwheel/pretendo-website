@@ -462,21 +462,19 @@ section.team-helpers .text {
 	margin-bottom: 132px;
 }
 section.team-helpers .team-helpers-cards {
-	display: inline-grid;
-	grid-template-columns: repeat(21, 1fr);
-	grid-gap: 20px;
+	display: inline-flex;
+	gap: 20px;
 	margin-right: 20px;
 	color: var(--text-shade-1);
-	width: max-content;
 }
 section.team-helpers .row {
 	width: fit-content;
 }
 section.team-helpers .row.first {
-	animation: infiniteScrollRow1 25s linear infinite;
+	animation: infiniteScrollRow1 calc(var(--row1-count) * 1.2s) linear infinite;
 }
 section.team-helpers .row.second {
-	animation: infiniteScrollRow2 25s linear infinite;
+	animation: infiniteScrollRow2 calc(var(--row2-count) * 1.2s) linear infinite;
 }
 @keyframes infiniteScrollRow1 {
 	0% { transform: translate3d(0); }
@@ -567,9 +565,8 @@ section.team-helpers .helper-card.special::after {
 	top: -13px;
 	right: -13px;
 }
-section.team-helpers .row.second .helper-card {
-	position:relative;
-	left: calc(-250% - 50px);
+section.team-helpers .row.second {
+	margin-left: -1250px;
 }
 section.team-helpers .helper-card .img-wrapper {
 	background: #fff;

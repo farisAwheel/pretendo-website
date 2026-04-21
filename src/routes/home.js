@@ -26,9 +26,14 @@ router.get('/', async (request, response) => {
 	const specialThanksSecondRow = specialThanksPeople.slice(pivot);
 
 	// Builds the final array to be sent to the view, and triples each row.
+	const first = specialThanksFirstRow.concat(specialThanksFirstRow).concat(specialThanksFirstRow);
+	const second = specialThanksSecondRow.concat(specialThanksSecondRow).concat(specialThanksSecondRow);
+
 	renderData.specialThanksPeople = {
-		first: specialThanksFirstRow.concat(specialThanksFirstRow).concat(specialThanksFirstRow),
-		second: specialThanksSecondRow.concat(specialThanksSecondRow).concat(specialThanksSecondRow)
+		first,
+		second,
+		firstCount: first.length,
+		secondCount: second.length
 	};
 
 	// Progress
